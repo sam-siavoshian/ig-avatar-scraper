@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Runtime data
+pfp/
+progress.json
+ig_cookies.json
+
+# Test files
+test-users.txt
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS specific
+.DS_Store
+Thumbs.db 

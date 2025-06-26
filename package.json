@@ -1,0 +1,44 @@
+{
+  "name": "ig-avatar-scraper",
+  "version": "1.0.0",
+  "description": "Reusable, crash-proof Instagram avatar downloader (TXT / CSV / JSON input, Puppeteer-Stealth fallback, resumable progress).",
+  "main": "ig-avatar-scraper.js",
+  "type": "module",
+  "bin": {
+    "ig-avatar-scraper": "./ig-avatar-scraper.js"
+  },
+  "scripts": {
+    "start": "node ig-avatar-scraper.js",
+    "scrape": "node ig-avatar-scraper.js --help"
+  },
+  "author": "Saam",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ig-avatar-scraper.git"
+  },
+  "keywords": [
+    "instagram",
+    "scraper",
+    "puppeteer",
+    "puppeteer-extra",
+    "stealth",
+    "avatar",
+    "profile-picture",
+    "resume",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "cli-spinners": "^2.9.2",
+    "ora": "^6.3.1",
+    "puppeteer": "^22.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "yargs": "^17.7.2"
+  }
+}
